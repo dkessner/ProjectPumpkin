@@ -5,6 +5,9 @@
 
 Make a pumpkin face!
 
+<div id="sketch">
+</div>
+
 ```javascript
 function setup() {
   var canvas = createCanvas(400, 400);
@@ -26,8 +29,7 @@ function draw() {
 }
 ```
 
-<div id="sketch">
-</div>
+Copy the code into the editor below to run in your browser!
 
 <iframe id="p5.js web editor embed"
     title="p5.js web editor embed"
