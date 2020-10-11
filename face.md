@@ -5,11 +5,9 @@
 
 Make a pumpkin face!
 
-```
-
+```javascript
 function setup() {
   var canvas = createCanvas(400, 400);
-  canvas.parent("sketch");
 }
 
 function draw() {
@@ -26,7 +24,6 @@ function draw() {
     ellipse(240, 180, 50, 50);
     ellipse(200, 240, 100, 40);
 }
-
 ```
 
 <div id="sketch">
