@@ -1,4 +1,4 @@
-# Hello p5.js
+# Project Pumpkin
 
 [GitHub pages](https://dkessner.github.io/ProjectPumpkin/)
 
