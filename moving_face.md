@@ -1,32 +1,39 @@
 ## Moving Pumpkin Face
 
 <script src="p5/p5.js"></script>
-<script src="face.js"></script>
+<script src="moving_face.js"></script>
 
 Animate your pumpkin face!
 
-```
-
+```javascript
 function setup() {
   var canvas = createCanvas(400, 400);
   canvas.parent("sketch");
 }
 
-function draw() {
-    background(0);
+let x = 50;
+
+function drawPumpkin(x, y) {
 
     fill("#50ad2b");
-    rect(180, 70, 40, 100);
+    rect(x-20, y-130, 40, 100);
 
     fill("#ed864e");
-    ellipse(200, 200, 250, 200);
+    ellipse(x, y, 250, 200);
 
     fill(0);
-    ellipse(160, 180, 50, 50);
-    ellipse(240, 180, 50, 50);
-    ellipse(200, 240, 100, 40);
+    ellipse(x-40, y-20, 50, 50);
+    ellipse(x+40, y-20, 50, 50);
+    ellipse(x, y+40, 100, 40);
 }
 
+function draw() {
+    background(0);
+    drawPumpkin(x, 200);
+
+    x++;
+    if (x > width+125) x = -125;
+}
 ```
 
 <div id="sketch">
