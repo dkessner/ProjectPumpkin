@@ -33,7 +33,7 @@ Copy the code into the editor below to run in your browser!
 
 <iframe id="p5.js web editor embed"
     title="p5.js web editor embed"
-    width="800"
+    width="1000"
     height="600"
     src="https://editor.p5js.org/">
 </iframe>
