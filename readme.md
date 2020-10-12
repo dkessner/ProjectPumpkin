@@ -13,8 +13,8 @@ For each code example (e.g. the Pumpkin face):
 
 Implementation note:
 
-The examples use a p5.js command to specify where the sketch is embedded in the
-HTML file (in `<div id="sketch">`):
+The examples use a p5.js command to specify that the sketch should be embedded
+in the HTML file in the `<div id="sketch">` element:
 ```
 canvas.parent("sketch");
 ```
