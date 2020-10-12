@@ -10,8 +10,13 @@ Code your own virtual pumpkin!
 
 * [Moving pumpkin face](moving_face.html): Animate your drawing!
 
+* [Draw on the Pumpkin](decorate.html): Make a drawing!
 
-* [Bouncing pumpkins array](bouncing_pumpkins_array.html): Incorporate an array!
+* [Draw with the Pumpkin](drawWithPumpkin.html): Draw with the pumpkin!
+
+* [Bouncing Pumpkin](bounce.html): Bounce a pumpkin!
+
+* [Bouncing Pumpkin Array](bouncing_pumpkins_array.html): Lots of pumpkins are bouncing!
 
 <script src="p5/p5.js"></script>
 <script src="face.js"></script>
