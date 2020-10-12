@@ -1,4 +1,4 @@
-# Project Pumpkin 
+# Project Pumpkin
 
 <div id="sketch">
 </div>
@@ -9,6 +9,9 @@ Code your own virtual pumpkin!
     written code before.
 
 * [Moving pumpkin face](moving_face.html): Animate your drawing!
+
+
+* [Bouncing pumpkins array](bouncing_pumpkins_array.html): Incorporate an array!
 
 <script src="p5/p5.js"></script>
 <script src="face.js"></script>
