@@ -45,16 +45,17 @@ class Pumpkin {
     ellipse(this.x, this.y+40, 100, 40);
   }
 }
-
+//declare pumpkin array
 let pumpkins;
 
 function setup() {
   createCanvas(400, 400);
-
-  //initialize the arraylist with arraylist constructor function
+  //initialize empty pumpkin array
   pumpkins = [];
 
   for(let i = 0; i < 20; i++){
+    //fill pumpkin array with 20 new pumpkins
+    //with random widths and heights, and velocities between 2 and 7
     pumpkins[i] = new Pumpkin(int(random(width)),int(random(height)),int(random(2,7)),int(random(2,7)));
 
   }
@@ -63,7 +64,7 @@ function setup() {
 
 function draw() {
   background(0);
-
+    //go through every pumpkin in the array and draw it
     for(let i = 0; i < pumpkins.length; i++) {
     pumpkins[i].drawPumpkin();
   }
