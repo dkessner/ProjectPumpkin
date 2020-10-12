@@ -12,7 +12,9 @@ Code your own virtual pumpkin!
 
 * [Draw on the Pumpkin](decorate.html): Make a drawing!
 
-* [Draw with the Pumpkin](drawWithPumpkin.html): Make a drawing!
+* [Draw with the Pumpkin](drawWithPumpkin.html): Draw with the pumpkin!
+
+* [Bouncing Pumpkin](bounce.html): Bounce a pumpkin!
 
 <script src="p5/p5.js"></script>
 <script src="face.js"></script>
