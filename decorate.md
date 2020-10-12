@@ -1,7 +1,7 @@
 ## Decorate a Pumpkin
 
 <script src="p5/p5.js"></script>
-<script src="face.js"></script>
+<script src="decorate.js"></script>
 
 Draw on the Pumpkin!
 
