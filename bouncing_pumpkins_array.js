@@ -38,7 +38,8 @@ class Pumpkin {
 let pumpkins;
 
 function setup() {
-  createCanvas(400, 400);
+  var canvas = createCanvas(400, 400);
+  canvas.parent("sketch");
 
   //initialize the arraylist with arraylist constructor function
   pumpkins = [];
