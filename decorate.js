@@ -1,25 +1,68 @@
+//
+// decorate.js
+//
 
-var pump;
+
+var currentColor = '#000000';
+
+
 function setup() {
   var canvas = createCanvas(400, 400);
   canvas.parent("sketch");
-  pump = loadImage("https://lh3.googleusercontent.com/proxy/kUKW9urw3Et-uXHXWp_lsL9XWxU4Ca0d72ZJyaf-61IE93FsFe-pEd1fg8IvVbufJgEuk-noaXM4Y4jqKPFCv8eARwk");
-    background(255);
-    textAlign(CENTER);
+
+  background(255);
+  drawFace();
+
+  textAlign(CENTER);
   textSize(18);
-  text("Drag Your Mouse", width/2, height/3)
-  text("Then Press Space for New Pumpkin", width/2, height/2)
+  text("drag to draw", width/2, height-40)
+  text("'r/g/b/0/c': red/green/blue/black/clear", width/2, height-20)
 }
+
 function draw() {
-  imageMode(CENTER);
-
 }
+
+function drawFace() {
+    fill("#50ad2b");
+    rect(180, 70, 40, 100);
+
+    fill("#ed864e");
+    ellipse(200, 200, 250, 200);
+
+    fill(0);
+    ellipse(160, 180, 50, 50);
+    ellipse(240, 180, 50, 50);
+    ellipse(200, 240, 100, 40);
+}
+
 function keyPressed(){
-  if(key == ' ')
-    background(image(pump,width/2,height/2, 400,400));
-
+  if (key == 'c')
+  {
+    background(255);
+    drawFace();
+  }
+  else if (key == 'r')
+  {
+    currentColor = '#ff0000';
+  }
+  else if (key == 'g')
+  {
+    currentColor = '#00ff00';
+  }
+  else if (key == 'b')
+  {
+    currentColor = '#0000bb';
+  }
+  else if (key == '0')
+  {
+    currentColor = '#000000';
+  }
 }
+
+
 function mouseDragged(){
-  fill(0);
+  fill(currentColor);
   ellipse(mouseX,mouseY,10,10);
 }
+
+
