@@ -1,17 +1,23 @@
-function setup() {
-var canvas =  createCanvas(400, 400);
-canvas.parent("sketch");
-}
+//
+// drawWithPumpkin.js
+//
 
-function draw() {
+function setup() {
+    var canvas =  createCanvas(400, 400);
+    canvas.parent("sketch");
+
+  background(255);
   textSize(18);
   textAlign(CENTER);
   fill(0);
-  text("Drag to Draw - Press Space to Clear", width/2, height/7);
+  text("drag to draw, 'c' to clear", width/2, height-20);
+}
+
+function draw() {
 }
 
 function keyPressed(){
-  if(key == ' ')
+  if(key == 'c')
     background(255);
 }
 
