@@ -1,9 +1,12 @@
-# Project Pumpkin
+# Virtual Project Pumpkin
 
 <div id="sketch">
 </div>
 
-Code your own virtual pumpkin!
+<script src="p5/p5.js"></script>
+<script src="face.js"></script>
+
+Code your own pumpkin!
 
 * [Pumpkin face](face.html): This is a great place to start if you've never
     written code before.
@@ -18,10 +21,6 @@ Code your own virtual pumpkin!
 
 * [Bouncing Pumpkin Array](bouncing_pumpkins_array.html): Lots of pumpkins are bouncing! (Katie '23)
 
-<script src="p5/p5.js"></script>
-<script src="face.js"></script>
-
-
 <br/>
 
-[GitHub project](https://github.com/dkessner/ProjectPumpkin)
+
