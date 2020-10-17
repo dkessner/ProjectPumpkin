@@ -1,20 +1,25 @@
 @import "rouge-base16-dark";
 @import "default_colors";
 
-$body-background: $cod-grey !default;
-$body-foreground: $gallery !default;
-$header: $conifer !default;
+$body-background: $dark-orange !default;
+$body-foreground: #000 !default;
+$header: #000 !default;
 $blockquote-color: $silver-chalice !default;
 $blockquote-border: $dove-grey !default;
 
 body {
   margin: 20px;
   padding: 20px;
-  background: $body-background url("../images/bkg.png") 0 0;
+  background: $body-background;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+
+img {
+    border:0;
 }
 
 /* General & 'Reset' Stuff */
@@ -58,7 +63,7 @@ header h1 {
   margin: 0 0 0 20px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $conifer;//$header;
+  color: #000;//$header;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -67,7 +72,7 @@ header h1 {
 }
 
 header h1 a {
-  color: $conifer;//$header;
+  color: #000; //$conifer;//$header;
   text-decoration: none;
 }
 
@@ -239,9 +244,9 @@ hr {
    a, a:hover, a:visited
 */
 
-a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+a  {
+  color: #000; //#63c0f5;
+  //text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
 /* Clearfix */
