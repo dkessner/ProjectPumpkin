@@ -31,11 +31,14 @@ function draw() {
 
 Copy the code into the editor below to run in your browser!
 
-<iframe id="p5.js web editor embed"
+<iframe id="editor"
     title="p5.js web editor embed"
     width="1000"
     height="600"
     src="https://editor.p5js.org/">
 </iframe>
+
+<script src="godark.js"></script>
+
 
 
