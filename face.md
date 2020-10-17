@@ -29,7 +29,7 @@ function draw() {
 }
 ```
 
-Copy the code into the editor below to run in your browser!
+Copy the code into the editor below to run it yourself!
 
 <iframe id="editor"
     title="p5.js web editor embed"

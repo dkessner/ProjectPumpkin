@@ -10,18 +10,19 @@ Draw with the Pumpkin!
 
 ```javascript
 function setup() {
-  createCanvas(400, 400);
-}
-
-function draw() {
+  var canvas =  createCanvas(400, 400);
+  background(255);
   textSize(18);
   textAlign(CENTER);
   fill(0);
-  text("Drag to Draw - Press Space to Clear", width/2, height/7);
+  text("drag to draw, 'c' to clear", width/2, height-20);
+}
+
+function draw() {
 }
 
 function keyPressed(){
-  if(key == ' ')
+  if(key == 'c')
     background(255);
 }
 
@@ -37,10 +38,9 @@ function mouseDragged(){
   triangle(mouseX+30,mouseY-20,mouseX+10,mouseY-20, mouseX+20,mouseY);
   arc(mouseX, mouseY+10,50,25,2*PI,PI);
 }
-
 ```
 
-Copy the code into the editor below to run in your browser!
+Copy the code into the editor below to run it yourself!
 
 <iframe id="p5.js web editor embed"
     title="p5.js web editor embed"
