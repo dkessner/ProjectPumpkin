@@ -21,6 +21,4 @@ Code your own pumpkin!
 
 * [Bouncing Pumpkin Array](bouncing_pumpkins_array.html): Lots of pumpkins are bouncing! (Katie '23)
 
-<br/>
-
 
